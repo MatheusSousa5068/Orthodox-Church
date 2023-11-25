@@ -1,0 +1,67 @@
+<!-- update-user.component.html -->
+
+<form class="example-form" autocomplete="off">
+  <mat-form-field class="example-full-width">
+    <label for="nome">Nome</label>
+    <input matInput placeholder="Nome" [(ngModel)]="user.nome" name="nome" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="email">Email</label>
+    <input matInput placeholder="Email" type="email" [(ngModel)]="user.email" name="email" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="endereco">Endereço</label>
+    <input matInput placeholder="Endereço" [(ngModel)]="user.endereco" name="endereco" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="idade">Idade</label>
+    <input matInput type="number" placeholder="Idade" [(ngModel)]="user.idade" name="idade" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="religiao">Religião</label>
+    <mat-select placeholder="Religião" [(ngModel)]="user.religiao" name="religiao" required>
+      <mat-option value="mulcumano">Mulçumano</mat-option>
+      <mat-option value="judeu">Judeu</mat-option>
+      <mat-option value="catolico">Católico</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="ideologiaPolitica">Ideologia Política</label>
+    <mat-select placeholder="Ideologia Política" [(ngModel)]="user.ideologiaPolitica" name="ideologiaPolitica" required>
+      <mat-option value="esquerda">Esquerda</mat-option>
+      <mat-option value="direita">Direita</mat-option>
+      <mat-option value="centro">Centro</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="profissao">Profissão</label>
+    <input matInput placeholder="Profissão" [(ngModel)]="user.profissao" name="profissao" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="numeroFilhos">Número de Filhos</label>
+    <input matInput type="number" placeholder="Número de Filhos" [(ngModel)]="user.numeroFilhos" name="numeroFilhos" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="rendaFamiliar">Renda Familiar antes da guerra</label>
+    <input matInput type="number" placeholder="Renda Familiar antes da guerra" [(ngModel)]="user.rendaFamiliar" name="rendaFamiliar" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="grauFormacao">Maior Grau de Formação Escolar</label>
+    <mat-select placeholder="Maior Grau de Formação Escolar" [(ngModel)]="user.grauFormacao" name="grauFormacao" required>
+      <mat-option value="ensinoMedio">Ensino Médio</mat-option>
+      <mat-option value="ensinoSuperior">Ensino Superior</mat-option>
+      <mat-option value="posGraduacao">Pós-Graduação</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="updateUser()">Atualizar</button>
+</form>

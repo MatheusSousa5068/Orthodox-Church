@@ -1,116 +1,41 @@
 {
   "users": [
     {
-      "nome": "aaa",
-      "senha": "aA1%25",
-      "endereco": "aa",
-      "idade": 124,
-      "religiao": "judeu",
-      "ideologiaPolitica": "centro",
-      "profissao": "programador",
-      "numeroFilhos": 111111,
-      "rendaFamiliar": 125125125,
-      "grauFormacao": "posGraduacao",
-      "email": "aaaa",
+      "email": "mathiew@gmail.com",
+      "senha": "6db4c342601346961bb310595d6d7090a5cfc77982776988d561112fa59aa31d",
+      "ehAdmin": false,
+      "nome": "Mathiew",
+      "endereco": "Lost Street",
+      "idade": 23,
+      "religiao": "catolico",
+      "ideologiaPolitica": "direita",
+      "profissao": "Programador",
+      "numeroFilhos": 2,
+      "rendaFamiliar": 5000,
+      "grauFormacao": "ensinoSuperior",
       "id": 1
     },
     {
-      "email": "aas",
-      "senha": "Aa1%",
+      "email": "severino@gmail.com",
+      "senha": "5c8cc54ad34f2c6e09113891c926633c0d7762f9f5d097def26415581a73fc7d",
       "ehAdmin": false,
-      "nome": "as",
-      "endereco": "ast",
-      "idade": 125,
-      "religiao": "mulcumano",
+      "nome": "Severino Paiva",
+      "endereco": "Rua Sepa",
+      "idade": 25,
+      "religiao": "judeu",
       "ideologiaPolitica": "direita",
-      "profissao": "1",
-      "numeroFilhos": 125,
-      "rendaFamiliar": 125,
-      "grauFormacao": "ensinoSuperior",
+      "profissao": "Professor",
+      "numeroFilhos": 5,
+      "rendaFamiliar": 10000,
+      "grauFormacao": "posGraduacao",
       "id": 2
-    },
-    {
-      "email": "aas",
-      "senha": "Suap1!",
-      "ehAdmin": false,
-      "nome": "as",
-      "endereco": "ast",
-      "idade": 125,
-      "religiao": "mulcumano",
-      "ideologiaPolitica": "direita",
-      "profissao": "1",
-      "numeroFilhos": 125,
-      "rendaFamiliar": 125,
-      "grauFormacao": "ensinoSuperior",
-      "id": 3
-    },
-    {
-      "email": "rpaz",
-      "senha": "Rapaz1!",
-      "ehAdmin": true,
-      "id": 4
-    },
-    {
-      "email": "matheus",
-      "senha": "1becaaf4b105337e726d254d8bdd7f5495a4d191b62be98654d74e951ca01373",
-      "ehAdmin": false,
-      "nome": "juliano",
-      "endereco": "123",
-      "idade": 123,
-      "religiao": "catolico",
-      "ideologiaPolitica": "direita",
-      "profissao": "124",
-      "numeroFilhos": 123,
-      "rendaFamiliar": 123,
-      "grauFormacao": "ensinoMedio",
-      "id": 5
     }
   ],
   "logs": [
     {
-      "timestamp": "2023-11-25T17:00:31.575Z",
-      "sucesso": true,
+      "timestamp": "2023-11-25T19:04:21.340Z",
+      "sucesso": false,
       "id": 1
-    },
-    {
-      "timestamp": "2023-11-25T17:00:43.924Z",
-      "sucesso": true,
-      "id": 2
-    },
-    {
-      "timestamp": "2023-11-25T17:01:14.700Z",
-      "sucesso": false,
-      "id": 3
-    },
-    {
-      "timestamp": "2023-11-25T17:01:20.600Z",
-      "sucesso": true,
-      "id": 4
-    },
-    {
-      "timestamp": "2023-11-25T17:01:26.477Z",
-      "sucesso": true,
-      "id": 5
-    },
-    {
-      "timestamp": "2023-11-25T17:01:30.627Z",
-      "sucesso": false,
-      "id": 6
-    },
-    {
-      "timestamp": "2023-11-25T17:19:13.204Z",
-      "sucesso": true,
-      "id": 7
-    },
-    {
-      "timestamp": "2023-11-25T17:19:19.632Z",
-      "sucesso": true,
-      "id": 8
-    },
-    {
-      "timestamp": "2023-11-25T17:19:22.357Z",
-      "sucesso": false,
-      "id": 9
     }
   ]
 }

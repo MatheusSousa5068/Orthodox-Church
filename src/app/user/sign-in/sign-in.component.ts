@@ -3,6 +3,7 @@ import { UserModel } from 'src/app/shared/models/User';
 import { LogService } from 'src/app/shared/services/log.service';
 import { SignInservice } from 'src/app/shared/services/sign-in.service';
 import * as CryptoJS from 'crypto-js';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-in',
@@ -15,7 +16,8 @@ export class SignInComponent {
 
   constructor(
     private signInService: SignInservice,
-    private logService: LogService
+    private logService: LogService,
+    private router: Router
   ) {}
 
   signIn() {
@@ -24,6 +26,8 @@ export class SignInComponent {
       if (user[0]) {
         if (user[0].senha == this.senhaCript) {
           this.logService.logLoginAttempt(this.user.nome, true).subscribe();
+
+          this.router.navigate(['/bible'])
         } else {
           this.logService.logLoginAttempt(this.user.nome, false).subscribe();
           alert('Usuário não encontrado ou credenciais inválidas');

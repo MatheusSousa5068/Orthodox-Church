@@ -26,6 +26,8 @@ export class AdminScreenComponent implements OnInit {
     this.userService.getAll().subscribe((all) => {
       this.csvService.transform(all);
     });
+
+    alert('Uma cópia dos dados foi enviado para seu email')
   }
 
   sanitizeHtml(html: string): SafeHtml {

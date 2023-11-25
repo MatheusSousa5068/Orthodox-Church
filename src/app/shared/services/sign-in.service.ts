@@ -22,6 +22,10 @@ export class SignInservice {
       );
   }
 
+  getUserById(id: any) {
+    return this.http.get<UserModel>(`${this.apiUrl}/${id}`)
+  }
+
   getAll(): Observable<UserModel[]> {
     return this.http.get<UserModel[]>(this.apiUrl)
       .pipe(
@@ -41,6 +45,10 @@ export class SignInservice {
       .pipe(
         catchError(this.handleError)
       );
+  }
+
+  updateUser(user: UserModel, id: any) {
+    return this.http.put<UserModel>(`${this.apiUrl}/${id}`, user)
   }
 
   private handleError(error: any): Observable<never> {

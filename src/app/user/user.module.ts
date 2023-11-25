@@ -12,6 +12,7 @@ import { AdminSignUpComponent } from './admin-sign-up/admin-sign-up.component';
 import { AdminScreenComponent } from './admin-screen/admin-screen.component';
 
 import { MatTableModule } from '@angular/material/table';
+import { UpdateComponent } from './update/update.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MatTableModule } from '@angular/material/table';
     SignInComponent,
     SignUpComponent,
     AdminSignUpComponent,
-    AdminScreenComponent
+    AdminScreenComponent,
+    UpdateComponent
   ],
   imports: [
     CommonModule,
@@ -33,7 +35,8 @@ import { MatTableModule } from '@angular/material/table';
     SignInComponent,
     SignUpComponent,
     AdminSignUpComponent,
-    AdminScreenComponent
+    AdminScreenComponent,
+    UpdateComponent
   ]
 })
 export class UserModule { }
