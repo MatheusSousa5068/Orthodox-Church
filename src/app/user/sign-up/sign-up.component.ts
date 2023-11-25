@@ -11,7 +11,7 @@ import { createStrongPassword } from 'src/app/shared/validators/validators';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent {
-  user: UserModel = new UserModel('', '', false); // Certifique-se de inicializar o objeto UserModel
+  user: UserModel = new UserModel('', '', false);
 
   constructor(private signService: SignInservice, private router: Router) {}
 

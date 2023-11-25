@@ -1,5 +1,3 @@
-// update-user.component.ts
-
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { UserModel } from 'src/app/shared/models/User';

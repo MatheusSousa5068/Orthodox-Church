@@ -1,5 +1,3 @@
-// user.model.ts
-
 export class UserModel {
   constructor(
     public email: string,
