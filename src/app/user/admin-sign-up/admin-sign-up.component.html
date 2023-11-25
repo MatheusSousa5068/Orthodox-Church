@@ -1,0 +1,15 @@
+<!-- Adicione estas linhas no seu formulário HTML de cadastro de admin -->
+
+<form class="admin-form">
+  <mat-form-field class="example-full-width">
+    <label for="adminEmail">E-mail do Admin</label>
+    <input matInput type="email" placeholder="E-mail" [(ngModel)]="admin.email" name="adminEmail" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="adminSenha">Senha do Admin</label>
+    <input matInput type="password" placeholder="Senha" [(ngModel)]="admin.senha" name="adminSenha" required>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="signUp()">Cadastrar Admin</button>
+</form>

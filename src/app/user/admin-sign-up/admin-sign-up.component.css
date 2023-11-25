@@ -1,0 +1,48 @@
+/* Adicione este estilo ao seu arquivo de estilos CSS */
+
+.admin-form {
+  max-width: 300px;
+  margin: auto;
+  background-color: #fff; /* Fundo branco para o formulário */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+.example-full-width {
+  width: 100%;
+  margin-top: 15px;
+}
+
+mat-form-field {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.mat-form-field-label {
+  color: #333; /* Cor do texto da label */
+  font-size: 16px; /* Tamanho da fonte da label */
+  font-weight: bold; /* Negrito na label */
+}
+
+.mat-input-element {
+  border-radius: 5px; /* Cantos arredondados para os inputs */
+  border: 1px solid #ccc; /* Borda cinza */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+button {
+  margin-top: 20px;
+  background-color: #2196F3; /* Azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1565C0; /* Azul mais escuro no hover */
+}

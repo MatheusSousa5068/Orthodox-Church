@@ -1,0 +1,19 @@
+<div>
+  <h2>Admin Screen</h2>
+
+  <button (click)="baixar()">Baixar Dados</button>
+
+  <div *ngIf="users.length > 0">
+    <table mat-table [dataSource]="users" class="mat-elevation-z8">
+      <ng-container [matColumnDef]="coluna" *ngFor="let coluna of colunasVisiveis">
+        <th mat-header-cell *matHeaderCellDef>{{ coluna  }}</th>
+        <td mat-cell *matCellDef="let user">
+          <div [innerHtml]="sanitizeHtml(user[coluna])"></div>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="colunasVisiveis"></tr>
+      <tr mat-row *matRowDef="let row; columns: colunasVisiveis"></tr>
+    </table>
+  </div>
+</div>

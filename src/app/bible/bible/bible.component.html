@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Seu Salmo Diário</h1>
+  <div class="chapter">Capítulo {{ item.chapter.number }}</div>
+  <div class="verses">
+    <div *ngFor="let verse of item.verses" class="verse">{{ verse.number }} {{ verse.text }}</div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<form class="user-login-form">
+  <mat-form-field class="example-full-width">
+    <label for="userEmail">E-mail do Usuário</label>
+    <input matInput type="email" placeholder="E-mail" [(ngModel)]="user.email" name="userEmail" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <label for="userSenha">Senha do Usuário</label>
+    <input matInput type="password" placeholder="Senha" [(ngModel)]="user.senha" name="userSenha" required>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="signIn()">Login</button>
+</form>

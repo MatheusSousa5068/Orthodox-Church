@@ -1,0 +1,63 @@
+/* Adicione este estilo ao seu arquivo de estilos CSS */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Fundo cinza claro */
+  margin: 0;
+}
+
+.example-form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff; /* Fundo branco para o formulário */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+.example-full-width {
+  width: 100%;
+  margin-top: 15px;
+}
+
+mat-form-field {
+  margin-top: 15px;
+  width: 100%;
+}
+
+label {
+  color: #333; /* Cor do texto da label */
+  font-size: 16px; /* Tamanho da fonte da label */
+  font-weight: bold; /* Negrito na label */
+}
+
+input {
+  border-radius: 5px; /* Cantos arredondados para os inputs */
+  border: 1px solid #ccc; /* Borda cinza */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+select {
+  color: #333; /* Cor do texto no select */
+}
+
+mat-select-panel {
+  background-color: #fff; /* Fundo branco para o painel do select */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+button {
+  margin-top: 20px;
+  background-color: #2196F3; /* Azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1565C0; /* Azul mais escuro no hover */
+}
